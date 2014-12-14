@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="22855" started-at="2014-12-14T16:39:25Z" finished-at="2014-12-14T16:39:48Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="22855" started-at="2014-12-14T16:39:25Z" finished-at="2014-12-14T16:39:48Z">
+      <class name="com.selenium.test.GmailTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.selenium.test.GmailTest@6cb8]" name="beforeSuite" is-config="true" duration-ms="17203" started-at="2014-12-14T22:09:25Z" finished-at="2014-12-14T22:09:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.selenium.test.GmailTest@6cb8]" name="test1" duration-ms="4560" started-at="2014-12-14T22:09:43Z" finished-at="2014-12-14T22:09:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.selenium.test.GmailTest@6cb8]" name="afterSuite" is-config="true" duration-ms="733" started-at="2014-12-14T22:09:47Z" finished-at="2014-12-14T22:09:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.selenium.test.GmailTest -->
+      <class name="com.selenium.test.ExcelDataTest">
+        <test-method status="PASS" signature="data()[pri:0, instance:com.selenium.test.ExcelDataTest@744a6cbf]" name="data" duration-ms="343" started-at="2014-12-14T22:09:25Z" finished-at="2014-12-14T22:09:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- data -->
+      </class> <!-- com.selenium.test.ExcelDataTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
