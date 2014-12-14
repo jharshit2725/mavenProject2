@@ -1,0 +1,8 @@
+<suite name="Hash Automation Suite">
+	<test name="Hash Automation test">
+		<classes>
+			<class name="com.selenium.test.ExcelData" />
+			<class name="com.selenium.test.gmail" />
+		</classes>
+	</test>
+</suite>

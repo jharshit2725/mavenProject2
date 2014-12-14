@@ -1,25 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="21441" started-at="2014-11-09T15:26:51Z" finished-at="2014-11-09T15:27:13Z">
+  <suite name="Hash Automation Suite" duration-ms="22469" started-at="2014-12-14T16:06:39Z" finished-at="2014-12-14T16:07:01Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="21441" started-at="2014-11-09T15:26:51Z" finished-at="2014-11-09T15:27:13Z">
+    <test name="Hash Automation test" duration-ms="22469" started-at="2014-12-14T16:06:39Z" finished-at="2014-12-14T16:07:01Z">
       <class name="com.selenium.test.gmail">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.selenium.test.gmail@303bc257]" name="beforeSuite" is-config="true" duration-ms="16091" started-at="2014-11-09T20:56:52Z" finished-at="2014-11-09T20:57:08Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.selenium.test.gmail@28bb0d0d]" name="beforeSuite" is-config="true" duration-ms="14757" started-at="2014-12-14T21:36:39Z" finished-at="2014-12-14T21:36:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:com.selenium.test.gmail@303bc257]" name="test1" duration-ms="5054" started-at="2014-11-09T20:57:08Z" finished-at="2014-11-09T20:57:13Z">
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.selenium.test.gmail@28bb0d0d]" name="test1" duration-ms="6900" started-at="2014-12-14T21:36:54Z" finished-at="2014-12-14T21:37:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.selenium.test.gmail@303bc257]" name="afterSuite" is-config="true" duration-ms="265" started-at="2014-11-09T20:57:13Z" finished-at="2014-11-09T20:57:13Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.selenium.test.gmail@28bb0d0d]" name="afterSuite" is-config="true" duration-ms="250" started-at="2014-12-14T21:37:01Z" finished-at="2014-12-14T21:37:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- com.selenium.test.gmail -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.selenium.test.ExcelData">
+        <test-method status="PASS" signature="data()[pri:0, instance:com.selenium.test.ExcelData@39dd3812]" name="data" duration-ms="499" started-at="2014-12-14T21:36:39Z" finished-at="2014-12-14T21:36:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- data -->
+      </class> <!-- com.selenium.test.ExcelData -->
+    </test> <!-- Hash Automation test -->
+  </suite> <!-- Hash Automation Suite -->
 </testng-results>
