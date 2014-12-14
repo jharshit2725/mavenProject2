@@ -1,7 +1,7 @@
 <suite name="Hash Automation Suite">
 	<test name="Hash Automation test">
 		<classes>
-			<class name="com.selenium.test.ExcelDatatest" />
+			<class name="com.selenium.test.ExcelDataTest" />
 			<class name="com.selenium.test.GmailTest" />
 		</classes>
 	</test>
